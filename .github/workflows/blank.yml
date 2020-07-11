@@ -35,7 +35,7 @@ jobs:
       uses: easingthemes/ssh-deploy@v2.1.4
       env:
     # Private Key  私钥
-        SSH_PRIVATE_KEY: ${{ secrets.TENCETN_CLOUD_SSH_PRIVATE_KEY }}
+        SSH_PRIVATE_KEY: ${{ secrets. }}
     # Remote host   远程主机
         REMOTE_HOST: "111.231.20.180"
     # Remote user  远程主机登录用户

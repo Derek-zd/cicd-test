@@ -1,2 +1,2 @@
 #!/bin/bash
-echo /etc/hostname
+cat /etc/passwd

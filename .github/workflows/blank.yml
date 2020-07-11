@@ -44,7 +44,7 @@ jobs:
     #   REMOTE_PORT: 22
     # optional, default is 22
     # Source directory  源文件 目录
-        SOURCE:  "/home/runner/work/cicd-test/cicd-test"
+        SOURCE:  "."
     # optional, default is 
     # Target directory  目标目录
         TARGET: "/root/"

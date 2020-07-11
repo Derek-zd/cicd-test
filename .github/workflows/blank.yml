@@ -33,7 +33,7 @@ jobs:
         echo test, and deploy your project.
     - name: ssh deploy  
       uses: easingthemes/ssh-deploy@v2.1.4
-      with:
+      env:
     # Private Key  私钥
         SSH_PRIVATE_KEY: ${{secrets.TENCETN_CLOUD_SSH_PRIVATE_KEY}}
     # Remote host   远程主机

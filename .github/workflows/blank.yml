@@ -47,7 +47,7 @@ jobs:
         SOURCE:  "."
     # optional, default is 
     # Target directory  目标目录
-        TARGET: "/home/ubuntu/"
+        TARGET: "/root/"
     # optional, default is /home/REMOTE_USER/
     # Arguments to pass to rsync
     #ARGS: # optional, default is -rltgoDzvO

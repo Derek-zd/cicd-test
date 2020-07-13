@@ -54,9 +54,8 @@ jobs:
     - name: docker build and docker run 
       uses: garygrossgarten/github-action-ssh@release
       with:
-        command: lsblk
-        command: ls a  
+        command:   
         host: "111.231.20.180"
         username: "root"
         privateKey: ${{ secrets.PASSWD }} 
-  
+
